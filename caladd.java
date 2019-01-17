@@ -7,7 +7,8 @@ public class caladd {
 
         do {
                 System.out.print("1. ADD TWO NUMBERS\n");
-                System.out.print("2. EXIT\n\n");
+		System.out.print("3. MULTIPLY TWO NUMBERS\n");
+	        System.out.print("2. EXIT\n\n");
                 System.out.print("Enter your choice : ");
                 choice = sc.next().charAt(0);
                 switch(choice) {
@@ -17,6 +18,13 @@ public class caladd {
                         res = a + b;
                         System.out.print("Result = " + res);
                         break;
+
+			case '3' : System.out.print("Enter two numbers : ");
+				   a = sc.nextFloat();
+				   b = sc.nextFloat();
+				   res = a * b;
+				   System.out.print("Result = " + res);
+				   break;
 
                         case '2' : System.exit(0);
                                 break;
