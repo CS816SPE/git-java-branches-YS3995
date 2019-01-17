@@ -27,7 +27,7 @@ public class caladd {
 				   System.out.print("Result = " + res);
 				   break;
 		       
-			case '3' : System.out.print("Enter two numbers : ");
+			case '4' : System.out.print("Enter two numbers : ");
                                    a = sc.nextFloat();
                                    b = sc.nextFloat();
                                    res = a - b;
